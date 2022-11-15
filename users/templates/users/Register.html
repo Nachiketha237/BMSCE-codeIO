@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration form and Login system</title>
+    <link rel="stylesheet" href="/static/style1.css">
+</head>
+<body>
+    
+    <div class="bmsceimage"></div>
+<marquee direction="right"><h1 style="color:rgb(228, 252, 8) ;">B.M.S College of Engineering</h1></marquee>
+      <div class="box">
+         <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Register()"><b>Register</b></button>
+            </div>
+  
+                
+                 <form id="Register" action="/users/Register/" method="post"" class="fields">
+                  {%csrf_token%}
+                    <label for="Username">Username:</label>
+                    <div class="ifield" placeholder="username " >{{form.username}}</div>
+                    <label for="email">Email:</label>
+                    <div class="ifield"> {{form.email}}</div>
+                    <label for="password1">Password:</label>
+                    <div class="ifield">{{form.password1}}</div>
+                    <label for="password2">Re-enter password:</label>
+                     <div class="ifield">{{form.password2}}</div>
+                     <div class="kfield">
+                     <input type="submit" ></input></div>
+                     {{form.errors}}
+                 </form>
+                </div>
+          
+            </body>
+               </html>

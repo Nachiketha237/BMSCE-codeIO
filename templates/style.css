@@ -1,0 +1,97 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman ';
+}
+
+.bmsceimage{
+    height: 100%; 
+    width: 100%;
+    background-image:linear-gradient(rgba(1, 15, 33, 0.75),rgba(0, 8, 11, 0.8)),url(BMSCE.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.box{
+     height: 420px;
+     width: 310px;
+     position: relative;
+     margin: 6% auto;
+     background-image:linear-gradient(rgba(5, 93, 96, 0.9),rgba(0, 7, 11, 0.9)),url(graduate1.jpg);
+     background-position:center;
+     background-size: cover;
+     border-radius: 45px;
+     box-shadow: 0 0 20px 9px rgb(21, 14, 53);
+     bottom:20px;
+     padding: 8px;
+     overflow: hidden;
+    }
+.button-box{
+    width: 215px;
+    margin: 25px auto;
+    position: relative;
+    padding: 8px;
+    box-shadow: 0 0 5px 3px rgb(10, 3, 25);
+    border-radius:35px ;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position:relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right,rgba(251, 9, 9, 0.8),rgba(212, 179, 179, 0.8));
+    border-radius: 30px;
+    transition: .3s;
+}
+.fields{
+    top: 135px;
+    position: absolute;
+    width: 300px;
+    transition: 0.3s;
+    background: hidden;
+}
+.ifield{
+    width: 35%;
+    padding:3px 0 ;
+    margin:1px 0 ;
+    border-left: 5px ;
+    border-top: 3px;
+    border-right:0 ;
+    border-bottom:0.6px solid rgb(251, 249, 249) ;
+    background:transparent;
+}
+.kfield{
+    width: 25%;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,rgba(22, 42, 195, 0.8),rgba(167, 29, 188, 0.8));
+    border: 0;
+    outline: none;
+    border-radius:30px ;
+}
+.jfield{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color:rgb(246, 241, 241);
+    font-size: 12px;
+    bottom: 50px;
+    position: absolute;
+}
+#Login{
+    left:350px;
+}
+#Register{
+    left: 30px;
+}
